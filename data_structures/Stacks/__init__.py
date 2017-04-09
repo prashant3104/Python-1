@@ -20,4 +20,4 @@ class Stack:
          return None
       else:
          self.top -= 1
-         return self.stack[self.top]
+         return self.stack.pop(self.top)
